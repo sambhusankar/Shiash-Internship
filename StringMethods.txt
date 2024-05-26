@@ -1,0 +1,90 @@
+                         String Methods in Python
+
+0. capitalize()
+
+   It is a built in function in Python to capitalize a string's first alphabet.
+    
+   Ex:
+        str = "full stack web developer"
+        print(str.capitalize()) 
+        output : "Full stack web developer"
+
+
+1. title()
+ 
+    It is a built in function in Python to capitalize all the first letter of every word in a string.
+
+    Ex:
+        str = "full stack web developer"
+        print(str.title()) 
+        output : "Full Stack Web Developer"
+
+2. isalpha()
+
+    It checks the string whether it contains only alphabets or not.If contains then returns True ohterwise returns False.
+
+     Ex:
+        str = "full stack web developer"
+        print(str.isalpha()) 
+        output : True
+
+3. isdigit()
+
+    It checks the given string it contains only digits or not. If contains then returns True therwise returns False.
+
+    Ex:
+        str = "full stack web developer"
+        print(str.isdigit()) 
+        output : False
+
+4. isalnum()
+
+    If the given string contains alphabets or numbers it will return True and if any special character is there it will return False.
+
+     Ex:
+        str = "full stack web developer"
+        print(str.isalnum()) 
+        output : True
+5. upper()
+
+    It transforms all the alphabets to uppercase in a string.
+
+     Ex:
+        str = "full stack web developer"
+        print(str.upper()) 
+        output : "FULL STACK WEB DEVELOPER"
+    
+6. lower()
+
+    It transforms all the alphabets to lowecase in a string.
+    
+     Ex:
+        str = "full stack web developer"
+        print(str.lower()) 
+        output : "full stack web developer"
+
+7. swapcase()
+
+    It swaps all the characters in a string upper to lower and lower to upper.
+    
+    Ex:
+        str = "FuLL stacK Web DEVelOPer"
+        print(str.swapcase()) 
+        output : "fUll STACk wEB deveLopER"
+
+8. index()
+    It returns the first occurance index number of a given character in a string. If it can't find any character it will through a Value Error.
+
+    Ex:
+        str = "full stack web developer"
+        print(str.index("s")) 
+        output : 5
+
+9. find()
+
+    It also works like index() funtion but if it can't find any character it will retur -1.
+
+    Ex:
+        str = "full stack web developer"
+        print(str.find("z")) 
+        output : -1

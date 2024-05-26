@@ -1,0 +1,52 @@
+Task no 8
+There are many more errors in python here are some of them.
+
+1. Syntax Error -
+    This error occurs when the programer writes the wrong syntaxes. Every programming language have different 
+    different syntaxes we need to follow the syntax rules while writing code.
+    
+    Ex :-
+        print("Software Engineering
+
+    (closing bracket and double quote missing)
+
+2. Zero Divison Error -
+    This error occurs when the programmer tries to devide a number with 0.
+    
+    Ex :-
+        a = 8
+        b = 0
+        print(a / b)
+
+    (we can not devide a number with zero)
+
+3. Value Error - 
+    This error occurs when the programmer tries to do operations with different different datatypes.
+
+    Ex :-
+        a = "engineering"
+        b = 6
+        print(a + b)
+
+    (tries add a string datatype with int datatypes which is impossible)
+
+4. Index Error - 
+    This error occurs when the porgrammer tries to acces a index of a iterable datatype and the index
+    is out of the data.
+
+    Ex :-
+        list = [ "sankar", "shiv", "bholenath", "mahadev", "sambhu", "mahakal"]
+        print(list[9])
+
+    (Tries to access the 9th index of data which is not available in the list)
+
+5. Indention Error - 
+    This error occurs when the prgrammer don't write the codes with correcct indention.
+
+    Ex :-
+        a = "software "
+        b = "engineering"
+          c= a + b
+        print(c)
+
+    (Here the third line is not in correct indention it will through a indention error)
