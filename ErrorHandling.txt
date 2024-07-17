@@ -1,4 +1,4 @@
-Task no 8
+Task no 10
 There are many more errors in python here are some of them.
 
 1. Syntax Error -
@@ -50,3 +50,18 @@ There are many more errors in python here are some of them.
         print(c)
 
     (Here the third line is not in correct indention it will through a indention error)
+
+6. Import Error - 
+    This error occurs when a imported module not found.
+
+    Ex :-
+       from math import sankar
+
+       (Here we are importing sankar which is not a method of math it will through the import error)
+
+7. EOF Error -
+    This error occurs when we are trying to get a user input but it reaches the end of the file with out the input.
+
+8. Key Error - 
+    This error occurs when we are trying to access a value of a dictionary using key but the key is not present.
+

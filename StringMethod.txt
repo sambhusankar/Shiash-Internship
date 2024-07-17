@@ -1,0 +1,53 @@
+---BUILT IN STRING METHODS IN PYTHON---
+
+1. title() :-
+    it is used to capitalize first letter of each and every word in a string.
+
+    Ex:- 
+        When we take a fullname as a input from user we should use the title() method to capitalize users 
+        first and last name.
+
+2. isdigit() :-
+    It is used to check the string is only numbers or not. If numbers it will return True else it wiil return
+     False.
+
+    Ex:-
+        we can use this method when taking a phone number as input from user.If the user enter a alphabat in 
+        the phonenumber field it will show a error message.
+3. lower() :-
+    It is used to make lowercase a string from uppsercase.
+
+    Ex:-
+        when a user enter his/her email we can use this method to make more synchronize the email address.
+
+4. count() :-
+    It is used to count how many time repeats a charachter in a string.
+
+    Ex:-
+        Suppose we are taking a lot of unique names from user. We can use this method to check is there any
+        duplicate name or not.
+
+5. isalnum(), isalpha(), isdigit() :-
+    We are using isalnum() to check the string is only alphanumeric or not. isalpha() is used to check the 
+    strig is alphabets only or not and the isdigit for check numbers.
+
+    Ex:-
+        We can use this three methods combinely to check stronger passwords contains with special characters.
+        if the user entered password only alpha or only number or only alphanumeric this three methods will
+        check it. Then we can show a erroe msg to enter a special character.
+
+6. split() :-
+    It is used to break the string with given character and make a list of this words.
+
+    Ex:-
+        if we want to take a list as input from the user we can use it to make a list with space separated 
+        the user dont need to write a comma.
+
+7. lstrip(), rstipt() :- 
+    It is used to remove given character from left and right of the string.
+
+    Ex:-
+    If a user enters some spaces at first or last of his name it will remove the unwanter spaces. Names does
+    not contain space first and last.
+
+
